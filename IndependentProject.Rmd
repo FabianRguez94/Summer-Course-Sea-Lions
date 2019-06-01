@@ -1,0 +1,61 @@
+---
+title: "Monitoring touristic boats in La Lobera Island using satellite images"
+author: "(Rodriguez-Gonzalez, 2019)"
+date: "`r format(Sys.Date())`"
+output: 
+  github_document
+  #word_document
+  #html_document
+---
+
+## Summary
+
+
+## Question(s)
+
+
+* Question 1: There is a ilegal Sea lions whatching during closure season?
+* Question 2: How many boats there are in the area?
+
+
+## Introduction
+
+Sea lions colony in La Lobera has a very important role because they are bioindicators of ecosystem health being one of the top predators. During recent years, ecotourism and the observation of sea lions in the area has increased.
+
+In 2015 a closure was established corresponding to the breeding season during Jun 1 to Aug 31. However, the area does not have good vigilancy. for which it is necessary to monitor the area
+
+The  use of satellite images gives us a great advantage to be able to count and even measure the boats.That is why in this work is intended to monitor the population with this news technologies.
+
+
+## Methods
+
+Touristic boats counts were made in "La Lobera" La Paz, B.C.S., Mexico (Figure 1) during the closure season (jun 1 - Aug 31) in 2017-2018, using satellite images of Planet.A comparation was made by days to see diferences between months. 
+
+
+![Figure 1. Study area](l.png)
+
+Measurements of the boats were made in Google Earth Pro, Also as as Google Earth satellite images have more resolution, boat counts were made to estimate the average and apply it in the daily counts. 
+
+![Figure 2. Measuring boats](t.png)
+
+
+## Results
+
+In average was 9.9 m per boat. 
+![optional caption text](r.png)
+
+
+#```{r pressure plot, echo=FALSE}
+#plot(pressure)
+```
+
+#```{r pressure analysis, echo=TRUE}
+model <- lm(pressure~temperature, data = pressure)
+summary(model)
+```
+
+## Discussion
+
+
+## References
+
